@@ -56,10 +56,6 @@ public class calculator {
             int div = num1 / num2 ;
 
             System.out.println("Division is " + div);
-
-            if (UserInput == 4 ) {
-                
-            }
         }
         sc.close();
     }
