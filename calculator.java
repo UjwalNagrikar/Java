@@ -6,7 +6,7 @@ public class calculator {
 
         System.out.println("Addition   1");
         System.out.println("Subraction 2");
-        System.out.println("Multiplay  3");
+        System.out.println("Multiply  3");
         System.out.println("Division   3");
 
        
@@ -44,7 +44,7 @@ public class calculator {
 
             int mul = num1 * num2 ;
 
-            System.out.println("Multiplication is " + mul);
+            System.out.println("Multiply is " + mul);
         }
         if (UserInput == 4 ) {
             System.out.println("Enter 1st number :");
@@ -53,9 +53,14 @@ public class calculator {
             System.out.println("Enter second number :");
             int num2 = sc.nextInt();
 
-            int div = num1 + num2 ;
+            int div = num1 / num2 ;
 
             System.out.println("Division is " + div);
+
+            if (UserInput == 4 ) {
+                
+            }
         }
+        sc.close();
     }
 }
