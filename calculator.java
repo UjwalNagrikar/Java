@@ -6,8 +6,8 @@ public class calculator {
 
         System.out.println("Addition   1");
         System.out.println("Subraction 2");
-        System.out.println("Multiply  3");
-        System.out.println("Division   3");
+        System.out.println("Multiply   3");
+        System.out.println("Division   4");
 
        
         System.out.println("enter you chice :");
